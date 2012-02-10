@@ -1,0 +1,20 @@
+!.container, #sidebar, #content {
+    border: 1px solid #ccc;
+}
+
+body {
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p { font-size: 13px; line-height: 18px; margin-bottom: 30px; }
+h1 { font-weight: 300; color: #999; }
+h2 { color: #555; margin-bottom: 20px; }
+h3 { font-size: 18px; font-weight: 500; line-height: 30px; }
+ul { list-style-type: none; display: inline; }
+
+#header { margin-bottom: 20px; }
+#sidebar { text-align: right; position: fixed; }
+.container { padding-top: 30px; }
+.section { margin-bottom: 50px; }
+.thumbnail { width: 210px; margin-right: 10px; }
+
+a, a:link, a:visited, a:active, a:hover { text-decoration: none; }

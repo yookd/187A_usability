@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>A Generic Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+    <meta name="description" content="University of Louisiana site usability">
+    <meta name="author" content="Joseph Lee, David Yoo, Samson Toor">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -12,6 +12,7 @@
     <![endif]-->
 
     <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+    <link rel="stylesheet" href="stylesheets/areset.css" >
     <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
     <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
 
@@ -36,9 +37,341 @@
   </head>
 
   <body>
+    <a name="home"></a>
     <div class="container">
+      
+      <div id="header" class="row">
+        <div class="span7 offset4">
+          <h1>University of Louisiana<br /> Site Usability Analysis</h1>
+        </div>
+      </div>
 
-      Put Stuff Here
+      <div class="row">
+        
+        <div id="sidebar" class="span2 offset1">
+            <h3><a href="#home">home</a></h3>
+            <h3><a href="#visibility">visibility</a></h3>
+            <h3><a href="#language">language</a></h3>
+            <h3><a href="#userincontrol">user in control</a></h3>
+            <h3><a href="#consistency">consistency</a></h3>
+            <h3><a href="#errorprevention">error prevention</a></h3>
+            <h3><a href="#recognition">recognition</a></h3>
+            <h3><a href="#efficiency">efficiency</a></h3>
+            <h3><a href="#aesthetics">aesthetics</a></h3>
+            <h3><a href="#errorrecovery">error recovery</a></h3>
+            <h3><a href="#help">help</a></h3>
+            <br />
+            <h5><a href="#home">to the top</a></h5>
+        </div>
+        
+        <div id="content" class="span6 offset4">
+          
+          <div class="row section">
+            <div class="span6">
+              <a name="visibility"></a>
+              <h2>Visibility</h2>
+              <p>When the University of Louisiana Lafayette website is accessed,  (<a href="http://louisiana.edu/">http://louisiana.edu/</a>), we are greeted by a homepage that has several salient elements positioned within two large rectangular panes that are situated side by side. The left most pane consists of a large university branded logo, followed by a column of 5 horizontal links (Prospective Students, Current Students, Alumni, Donors &amp; Friends, Visitors, Faculty &amp; Staff) and a vertical bar at the bottom of 4 links (Search, Index A-Z, Contact Us, ULink). The right most pane is largely made up of a dynamic picture box that shuffles through a gallery upon refresh and is also linked to via click. The bottom of this pane is comprised of an opaque box linking to a university research initiative page.
+                <br /><br />
+                Located above the two main panes is a navigational bar that has links to the following pages: news, about us, academics, student life, library, research, and athletics. Every subsequent page that is linked to has a banner under the navigation bar that is branded with the University logo and title of page, although there are a few exceptions. The library page (<a href="http://library.louisiana.edu">library.louisiana.edu</a>) and research page (<a href="http://research.ucs.louisiana.edu">research.ucs.louisiana.edu</a>) do not have a consistent layout with the original page. These links should be categorized elsewhere for visibility purposes, as they go against the standards set forth by the other navigational linked pages.
+                <br /><br />
+                When clicking on any navigation bar link to go to a page, for example "about us", it fails to change the link to "active" which would have highlighted the current page. Instead, the site relies on a rectangular banner under the navigation bar, that matches the width of the proceeding page elements and displays the unique title of the current page. Although this gets the message of the current page across to the viewer, it does not come off as intuitively designed and user friendly unlike that of the “active” link scheme.
+              </p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/original_page.png" title="Home page layout" rel="group1" >
+                        <img class="thumbnail" src="images/original_page.png" alt="Home page">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/academics.png" title="Academics page layout (consistent with most of the internal pages)" rel="group1" >
+                        <img class="thumbnail" src="images/academics.png" alt="Academics page">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/consistency1.png" title="Inconsistent page design - Library" rel="group1" >
+                        <img class="thumbnail" src="images/consistency1.png" alt="Inconsistent page - library">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/consistency2.png" title="Inconsistent page design - Research" rel="group1" >
+                        <img class="thumbnail" src="images/consistency2.png" alt="Inconsistent page - research">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end visibility -->
+          
+          <div class="row section">
+            <a name="language"></a>
+            <div class="span6">
+              <h2>Language</h2>
+              <p>The University of Louisiana website does a decent job to keep the language neutral and easy to comprehend. There is no required skill level or jargon to decipher other than basic terms and topics that revolve around education most university site visitors most likely know. No technical language is required to be known to navigate through the site.</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end language -->
+          
+          <div class="row section">
+            <a name="userincontrol"></a>
+            <div class="span6">
+              <h2>User In Control</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end user in control -->
+          
+          <div class="row section">
+            <a name="consistency"></a>
+            <div class="span6">
+              <h2>Consistency</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end consistency -->
+          
+          <div class="row section">
+            <a name="errorprevention"></a>
+            <div class="span6">
+              <h2>Error Prevention</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end error prevention -->
+          
+          <div class="row section">
+            <a name="recognition"></a>
+            <div class="span6">
+              <h2>Recognition</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end recognition -->
+          
+          <div class="row section">
+            <a name="efficiency"></a>
+            <div class="span6">
+              <h2>Efficiency</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end efficiency -->
+          
+          <div class="row section">
+            <a name="aesthetics"></a>
+            <div class="span6">
+              <h2>Aesthetics</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end aesthetics -->
+          
+          <div class="row section">
+            <a name="consistency"></a>
+            <div class="span6">
+              <h2>Consistency</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end error recovery -->
+          
+          <div class="row section">
+            <a name="help"></a>
+            <div class="span6">
+              <h2>Help</h2>
+              <p>placeholder</p>
+              <div class="row"> <!-- start gallery -->
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class ="span3">
+                  <ul class="media-grid">
+                    <li>
+                      <a class="fancybox" href="images/187.jpg">
+                        <img class="thumbnail" src="images/187.jpg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- end gallery -->
+            </div>
+          </div> <!-- end help -->
+        
+        </div> <!-- end content -->
+        
+      </div> <!-- end sidebar and content holder -->
 
     </div> <!-- end container -->
 
