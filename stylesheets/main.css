@@ -16,5 +16,6 @@ ul { list-style-type: none; display: inline; }
 .container { padding-top: 30px; }
 .section { margin-bottom: 50px; }
 .thumbnail { width: 210px; margin-right: 10px; }
+.quote { font-size: 16px; font-style: italic; color:#ccc; font-weight: 300; }
 
 a, a:link, a:visited, a:active, a:hover { text-decoration: none; }
